@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <set>
+#include <cmath>
 
 using namespace std;
 
@@ -12,8 +13,21 @@ int main()
     cin >> a >> b >> c;
     if (a == 0)
     {
-        cout << "Wrong data\n";
-        return 0;
+        if (b != 0)
+        {
+            cout << -c / b;
+            return 0;
+        }
+        else if (c != 0)
+        {
+            cout << "No roots";
+            return 0;
+        }
+        else
+        {
+            cout << "Any value";
+            return 0;
+        }
     }
     double discriminant;
     discriminant = b * b - 4 * a * c;
