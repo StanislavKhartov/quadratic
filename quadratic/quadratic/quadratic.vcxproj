@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2b086d33-c0e6-40bd-b5bb-08cbd63c3417}</ProjectGuid>
+    <ProjectGuid>{79667e87-92de-4522-994a-af71e6bfff57}</ProjectGuid>
     <RootNamespace>quadratic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
